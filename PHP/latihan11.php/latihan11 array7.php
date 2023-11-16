@@ -1,0 +1,8 @@
+<body>
+    <?php
+    $angka =[[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+    ?>
+    <?php foreach {$angka as $a} ; ?>
+    <div class="kotak"><?= $a; ?></div>
+    <?php endforeach; ?>
+</body>
