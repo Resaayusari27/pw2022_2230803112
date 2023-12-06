@@ -9,7 +9,7 @@ $mahasiswa = ["joni","123456","sistem informasi","dyan@gmail.com"];
 <body>
     <h1>Daftar Mahasiswa</h1>
     <ul>
-       <?php foreach ($mahasiswa as $mhs);?>
+       <?php foreach ($mahasiswa as $mhs):?>
        <li><?=$mhs;?></li>  
     </ul>
     <?php endforeach; ?>
